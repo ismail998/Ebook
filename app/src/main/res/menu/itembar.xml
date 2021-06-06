@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        app:cnb_backgroundColor="#150485"
+        app:cnb_iconColor="#FFF"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="#FFF" />
+    <item
+        android:id="@+id/storebook"
+        android:enabled="true"
+        android:icon="@drawable/ic_bookstor"
+        android:title="Store"
+        app:cnb_backgroundColor="#150485"
+        app:cnb_iconColor="#FFF"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="#FFF" />
+    <item
+        android:id="@+id/favo"
+        android:enabled="true"
+        android:icon="@drawable/ic_favo"
+        android:title="favourite"
+        app:cnb_backgroundColor="#150485"
+        app:cnb_iconColor="#FFF"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="#FFF" />
+</menu>
